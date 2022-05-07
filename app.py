@@ -19,4 +19,12 @@ estrutura = { 'comp_sepala': comp_sepala,
             }
 df = pd.DataFrame(estrutura, index=[0])
 
+st.write("### Parâmetros de entrada")
 st.write(df)
+
+df = ss.transform(df)
+st.write(df)
+
+predicao = dtc.predict(df)
+st.write("Probabilidades")
+st.write(predicao)
