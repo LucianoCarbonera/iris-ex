@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 from sklearn.preprocessing import StandardScaler
-from sklearn.tree import DecisionTreeClaissifier
+from sklearn.tree import DecisionTreeClassifier
 
 st.write("# Classificação de Iris")
 st.write("## Exemplo com comprimentos de pétala e sépala")
