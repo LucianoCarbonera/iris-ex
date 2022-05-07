@@ -33,8 +33,7 @@ predicao = pd.DataFrame(predicao)
 predicao.rename({
     0: "Iris-Setosa",
     1: "Iris-versicolor",
-    2: "Iris-virginica"
-    }), axis=1, inplace=True
+    2: "Iris-virginica"}), axis=1, inplace=True
 
 st.write("Probabilidades")
 st.write(predicao)
