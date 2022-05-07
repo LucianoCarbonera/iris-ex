@@ -19,4 +19,4 @@ estrutura = { 'comp_sepala': comp_sepala,
             }
 df = pd.DataFrame(estrutura, index=[0])
 
-df.write(df)
+st.write(df)
